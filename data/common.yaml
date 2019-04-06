@@ -1,0 +1,7 @@
+---
+barcamp::telegraf::database: "bolt"
+barcamp::telegraf::username: "bolt"
+# In the real world encrypt these with hiera eyaml or store externally
+barcamp::params::influxdb_password: "hunter2"
+barcamp::params::grafana_password: "boltIsAwesome"
+

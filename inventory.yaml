@@ -1,0 +1,12 @@
+---
+groups:
+  - name: dashboard
+    nodes: [ ]
+  - name: agents
+    nodes: [ ]
+config:
+  ssh:
+    host-key-check: false
+    user: centos
+    private-key: ~/.ssh/id_rsa-phraseless
+    run-as: 'root'
